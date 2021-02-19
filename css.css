@@ -1,15 +1,15 @@
-#snelheidsbalk {
-  background-color: white;
-  position:relative;
-  margin:30px;
-  overflow: hidden;
-}
+
 body{
   background-color: white;
   color:black;
 }
-#balk{
-  background-color: black;
-  width:0px;
-  height:20px;
+img{
+  width:30vw;
+  margin-left: 4vw;
+}
+h1{
+  font-family: arial, sans-serif;
+  font-size: 6vw;
+  font-style: normal;
+  text-align: center;
 }

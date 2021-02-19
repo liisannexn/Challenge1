@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>voorbeeld</title>
-<link rel="stylesheet" href="css.css">
-<script src="script/script.js" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-</head>
-<body>
-  <!-- <h1> dashboard </h1>
-  <div> uw snelheid is <span id="speed"> nog niet ingevuld </span></div>
+  <head>
+    <meta charset="utf-8">
+    <title>Space X Interplanetary Transport System Interface </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="grid.css">
+    <script src="script/script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  </head>
+  <body>
+    <img src="images/SpaceX-Logo.png" alt="SpaxeX logo" id="spaxelogo">
+    <h1>Voertuig omgeving</h1>
+      <div class="grid-container">
 
-  <div id="snelheidsbalk">
-    <div id="balk"></div>
-  </div>
-  <input type="button" name="gas" id="gas" value="gas erop" > -->
+          <canvas id="myChart"></canvas>
+          <!-- height="40" width="50" -->
+          <canvas id="pieChart"></canvas>
+          <div id="atmo"></div>
+      </div>
 
-  <canvas id="myChart"></canvas>
-  <canvas id="pieChart"></canvas>
   </body>
 </html>

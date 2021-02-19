@@ -1,19 +1,3 @@
-var s = 30;
-
-// document.getElementById('speed').innerHTML = s;
-//
-// document.getElementById('balk').style.width = s+'%';
-//
-// document.getElementById('gas').onclick = function(){
-//   s += 3;
-//   if (s > 100){
-//     s = 100;
-//   }
-//     document.getElementById('speed').innerHTML = s;
-//     document.getElementById('balk').style.width = s+'%';
-//
-// };
-
 var lijndiagram   = document.getElementById('myChart').getContext('2d');
 var chart = new Chart(lijndiagram, {
     // The type of chart we want to create
@@ -42,22 +26,24 @@ var chart = new Chart(lijndiagram, {
     },
 
     // Configuration options go here
-    options: {}
+    options: {
+      maintainAspectRatio:true,
+      responsiveAnimationDuration:0,
+    }
 });
-var cirkeldiagram   = document.getElementById('pieChart').getContext('2d');
-var myPieChart = new Chart(cirkeldiagram, {
-    type: 'pie',
-    datasets: [{
-        data: [10, 20, 30]
-    }],
-    backgroundColor:'pink',
-    color:'red',
-
-    // These labels appear in the legend and in the tooltips when hovering different arcs
-    labels: [
-        'Red',
-        'Yellow',
-        'Blue'
-    ],
-    options: {}
-});
+//
+// var cirkeldiagram   = document.getElementById('pieChart').getContext('2d');
+// var myPieChart = new Chart(cirkeldiagram, {
+//     type: 'pie',
+//     datasets: [{
+//         data: [10, 20, 30]
+//     }],
+//     // These labels appear in the legend and in the tooltips when hovering different arcs
+//     labels: [
+//         'Red',
+//         'Yellow',
+//         'Blue'
+//     ],
+//     cutoutPercentage: 0,
+//     options: {}
+// });

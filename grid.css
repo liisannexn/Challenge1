@@ -1,0 +1,77 @@
+.grid-container{
+  display: grid;
+  grid-gap: 3.6vw;
+  grid-template-columns:1fr;
+  /* grid-template-rows: 30vw 30vw 30vw; */
+
+  grid-template-areas:
+  "lijn"
+  "cirkel"
+  "atmo"
+
+}
+html{
+  margin: 0;
+  padding: 0;
+}
+canvas#myChart{
+  grid-area:lijn;
+  position: relative;
+  margin:auto;
+  height:40vh;
+  width:50vw;
+  overflow:hidden;
+}
+#pieChart{
+  grid-area:cirkel;
+  background-color: red;
+}
+#atmo{
+  grid-area:atmo;
+  background-color: purple;
+}
+
+
+@media only screen and (min-width: 834px) and (max-width:1279px){
+ .grid-container {
+    display: grid;
+    grid-gap:10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30vw 30vw;
+
+    grid-template-areas:
+    "lijn cirkel"
+    "atmo atmo";
+    }
+@media only screen and (min-width: 1280px) and (max-width:1919px){
+   .grid-container {
+    display: grid;
+    grid-gap:3vw;
+    grid-template-rows: 70vw 30vw;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "lijn lijn"
+    "cirkel atmo";
+   }
+   body{
+     padding: 0;
+     margin:0;
+  }
+}
+@media only screen and (min-width: 1920px) {
+  .grid-container {
+   display: grid;
+   grid-gap:3vw;
+   grid-template-rows: 30vw 30vw;
+
+   grid-template-columns: 1fr 1fr;
+   grid-template-areas:
+   "lijn lijn"
+   "cirkel atmo";
+  }
+  body{
+    padding: 0;
+    margin:0;
+  }
+   }
