@@ -13,3 +13,28 @@ h1{
   font-style: normal;
   text-align: center;
 }
+h2{
+  font-family: arial, sans-serif;
+  font-size:4vw;
+  font-style: normal;
+  text-align: center;
+}
+/* #pieChart{
+  color:black;
+} */
+p{
+  font-family: arial, sans-serif;
+  font-size: 3vw;
+  font-style: normal;
+  text-align: center;
+  float:left;
+  margin-left: 2vw;
+}
+hr{
+  float:left;
+  margin-left: 2vw;
+  border-style: dotted;
+  border-width:2;
+  color:black;
+  height:30vw;
+}

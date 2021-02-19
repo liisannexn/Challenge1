@@ -31,19 +31,25 @@ var chart = new Chart(lijndiagram, {
       responsiveAnimationDuration:0,
     }
 });
-//
-// var cirkeldiagram   = document.getElementById('pieChart').getContext('2d');
-// var myPieChart = new Chart(cirkeldiagram, {
-//     type: 'pie',
-//     datasets: [{
-//         data: [10, 20, 30]
-//     }],
-//     // These labels appear in the legend and in the tooltips when hovering different arcs
-//     labels: [
-//         'Red',
-//         'Yellow',
-//         'Blue'
-//     ],
-//     cutoutPercentage: 0,
-//     options: {}
-// });
+
+new Chart(document.getElementById("pieChart"), {
+    type: 'pie',
+    data: {
+      // labels: [""],
+      datasets: [{
+        label: "Zwaartekracht",
+        backgroundColor: ["#7083DB", "white"],
+        borderColor: 'black',
+        color:'black',
+
+        boderWidth:'1px',
+        data: [3.772, 9.789]
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'Zwaartekracht',
+      }
+    }
+});

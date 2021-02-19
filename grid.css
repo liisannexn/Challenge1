@@ -15,20 +15,29 @@ html{
   padding: 0;
 }
 canvas#myChart{
+  border-style: solid;
+  border-radius: 3vw;
+  border-width: 0.5vw;
   grid-area:lijn;
   position: relative;
   margin:auto;
   height:40vh;
   width:50vw;
-  overflow:hidden;
 }
 #pieChart{
   grid-area:cirkel;
-  background-color: red;
+  border-style: solid;
+  border-radius: 3vw;
+  border-width: 0.5vw;
+  padding-bottom: 6vw;
+  /* background-color: red; */
 }
 #atmo{
   grid-area:atmo;
-  background-color: purple;
+  border-style: solid;
+  border-radius: 3vw;
+  border-width: 0.5vw;
+  padding-bottom: 6vw;
 }
 
 
