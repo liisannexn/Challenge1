@@ -1,0 +1,15 @@
+#snelheidsbalk {
+  background-color: white;
+  position:relative;
+  margin:30px;
+  overflow: hidden;
+}
+body{
+  background-color: white;
+  color:black;
+}
+#balk{
+  background-color: black;
+  width:0px;
+  height:20px;
+}
