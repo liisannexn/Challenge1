@@ -3,9 +3,22 @@ body{
   background-color: white;
   color:black;
 }
-img{
+
+img#spacelogo{
+    width:30vw;
+    margin-left: 4vw;
+}
+img#aarde{
   width:30vw;
-  margin-left: 4vw;
+  margin-left: -2vw;
+  margin-top: 2vw;
+  z-index: 2;
+}
+img#mars{
+  width:20vw;
+  margin-left: 73vw;
+  margin-top: -11vw;
+  z-index: 2;
 }
 h1{
   font-family: arial, sans-serif;
@@ -19,22 +32,36 @@ h2{
   font-style: normal;
   text-align: center;
 }
-/* #pieChart{
-  color:black;
-} */
+p#first{
+    margin-left: 17vw;
+}
 p{
   font-family: arial, sans-serif;
   font-size: 3vw;
   font-style: normal;
   text-align: center;
   float:left;
-  margin-left: 2vw;
+  margin-left: 3vw;
 }
-hr{
+#myChart{
+  height: -497px;
+  width: -995px;
+}
+/* hr{
   float:left;
   margin-left: 2vw;
   border-style: dotted;
   border-width:2;
   color:black;
   height:30vw;
+} */
+
+@media only screen and (min-width: 834px) and (max-width:1279px){
+
+}
+@media only screen and (min-width: 1280px) and (max-width:1919px){
+
+}
+@media only screen and (min-width: 1920px) {
+
 }

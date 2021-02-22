@@ -38,13 +38,32 @@ canvas#myChart{
   border-radius: 3vw;
   border-width: 0.5vw;
   padding-bottom: 6vw;
+  margin-bottom: 3vw;
 }
-
+#balk{
+  background-color: black;
+  width:0px;
+  height:20px;
+  color:white;
+  z-index: 0;
+}
+#snelheidsbalk {
+  background-color:white;
+  margin: -16vw 15vw 0vw 10vw;
+  overflow: hidden;
+  color:white;
+  z-index:0;
+  height: 1vw;
+}
+input{
+  margin-top:7vw;
+  margin-left: 7vw;
+}
 
 @media only screen and (min-width: 834px) and (max-width:1279px){
  .grid-container {
     display: grid;
-    grid-gap:10px;
+    grid-gap:10vw;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 30vw 30vw;
 

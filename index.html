@@ -14,22 +14,32 @@
     <h1>Voertuig omgeving</h1>
       <div class="grid-container">
 
-          <canvas id="myChart"></canvas>
-          <!-- height="40" width="50" -->
-          <canvas id="pieChart"></canvas>
+          <canvas id="myChart" height="20" width="40"></canvas>
+
+          <canvas id="pieChart" height="20" width="40"></canvas>
           <!-- <h1>hoi</h1> -->
+
           <div id="atmo">
+            <div>
             <h2>Atmosfeer</h2>
-            <p>Troposfeer</p>
+            <p id="first">Troposfeer</p>
             <p>Statosfeer</p>
             <p>Mesosfeer</p>
             <p>Ionosfeer</p>
-            <img src="images/earth-3316984_960_720.png" alt="de aarde" id="aarde">
-            <img src="images/rocket-512.png" alt="de raket" id="raket">
-            <hr class="lijn1">
-            <hr class="lijn2">
-            <hr class="lijn3">
+          </div>
+
+            <img class="flex" src="images/earth-3316984_960_720.png" alt="de aarde" id="aarde">
+
+            <div id="snelheidsbalk">
+              <div id="balk"></div>
+            </div>
+            <!-- <img src="images/rocket-512.png" alt="de raket" id="raket"> -->
             <img src="images/Mars_(16716283421)_-_Transparent_background.png" alt="mars" id="mars">
+            <!-- <hr class="lijn1">
+            <hr class="lijn2">
+            <hr class="lijn3"> -->
+
+            <input type="button" name="ververs" id="ververs" value="ververs">
 
 
           </div>
