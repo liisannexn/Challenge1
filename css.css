@@ -1,5 +1,6 @@
-
 body{
+  /* background-color: #4A4E7B;
+  color:white; */
   background-color: white;
   color:black;
 }
@@ -43,10 +44,10 @@ p{
   float:left;
   margin-left: 3vw;
 }
-#myChart{
+/* #myChart{
   height: -497px;
   width: -995px;
-}
+} */
 /* hr{
   float:left;
   margin-left: 2vw;
@@ -60,8 +61,53 @@ p{
 
 }
 @media only screen and (min-width: 1280px) and (max-width:1919px){
-
+  h1{
+    font-size: 3vw;
+    margin-top: 3vw;
+    margin-left: 15vw;
+  }
+  h2{
+    font-size:2.5vw;
+  }
+  p#first{
+      margin-left: 4vw;
+  }
+  p{
+    font-size: 1.5vw;
+    margin-left: 3vw;
+  }
+  img#spacelogo{
+      width:20vw;
+      margin-left: 2vw;
+      margin-top: -1vw;
+  }
+  img#aarde{
+    width:17vw;
+    margin-left:-1vw;
+    margin-top: 2vw;
+  }
+  img#mars{
+    width:9vw;
+    margin-left:35vw;
+    margin-top: 0vw;
+  }
 }
 @media only screen and (min-width: 1920px) {
-
+  h1{
+    font-size: 3vw;
+    margin-top: -6vw;
+    margin-left: 4vw;
+  }
+  h2{
+    font-size:2.5vw;
+  }
+  p#first{
+      margin-left: 4vw;
+  }
+  p{
+    font-size: 1.5vw;
+    margin-left: 3vw;
+  }
+  /* hier moeten img logo en aarde en mars komen. */
+  }
 }

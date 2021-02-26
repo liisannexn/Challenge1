@@ -10,13 +10,15 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   </head>
   <body>
-    <img src="images/SpaceX-Logo.png" alt="SpaceX logo" id="spacelogo">
-    <h1>Voertuig omgeving</h1>
+    <div class="flex">
+      <img src="images/SpaceX-Logo.png" alt="SpaceX logo" id="spacelogo">
+      <h1>Voertuig omgeving</h1>
+    </div>
+      <!-- <div class="grid-container" style="position: relative; height:40vh; width:80vw"> -->
       <div class="grid-container">
+          <canvas id="myChart"></canvas>
 
-          <canvas id="myChart" height="20" width="40"></canvas>
-
-          <canvas id="pieChart" height="20" width="40"></canvas>
+          <canvas id="pieChart"></canvas>
           <!-- <h1>hoi</h1> -->
 
           <div id="atmo">
@@ -28,7 +30,7 @@
             <p>Ionosfeer</p>
           </div>
 
-            <img class="flex" src="images/earth-3316984_960_720.png" alt="de aarde" id="aarde">
+            <img src="images/earth-3316984_960_720.png" alt="de aarde" id="aarde">
 
             <div id="snelheidsbalk">
               <div id="balk"></div>

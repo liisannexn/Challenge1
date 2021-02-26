@@ -10,7 +10,7 @@
   "atmo"
 
 }
-html{
+body{
   margin: 0;
   padding: 0;
 }
@@ -19,26 +19,28 @@ canvas#myChart{
   border-radius: 3vw;
   border-width: 0.5vw;
   grid-area:lijn;
-  position: relative;
-  margin:auto;
-  height:40vh;
-  width:50vw;
+  /* position: relative; */
+  height:30vh;
+  width:100vw;
+  background-color: pink;
 }
-#pieChart{
+canvas#pieChart{
   grid-area:cirkel;
   border-style: solid;
   border-radius: 3vw;
   border-width: 0.5vw;
-  padding-bottom: 6vw;
-  /* background-color: red; */
+  height:30vh;
+  /* width:100vw; */
+  background-color: orange;
 }
 #atmo{
   grid-area:atmo;
   border-style: solid;
   border-radius: 3vw;
   border-width: 0.5vw;
-  padding-bottom: 6vw;
   margin-bottom: 3vw;
+  /* width:100vw; */
+  height:100%;
 }
 #balk{
   background-color: black;
@@ -59,47 +61,73 @@ input{
   margin-top:7vw;
   margin-left: 7vw;
 }
+.flex{
+  display: flex;
+  flex-flow: column;
+}
 
 @media only screen and (min-width: 834px) and (max-width:1279px){
  .grid-container {
     display: grid;
-    grid-gap:10vw;
+    grid-gap:3vw;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 30vw 30vw;
 
     grid-template-areas:
     "lijn cirkel"
     "atmo atmo";
+    /* border-style: solid;
+    border-radius: 3vw;
+    border-width: 0.5vw; */
+    /* width:100vw; */
     }
-@media only screen and (min-width: 1280px) and (max-width:1919px){
-   .grid-container {
-    display: grid;
-    grid-gap:3vw;
-    grid-template-rows: 70vw 30vw;
-
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas:
-    "lijn lijn"
-    "cirkel atmo";
-   }
-   body{
-     padding: 0;
-     margin:0;
+    canvas#myChart{
+      height:30vh;
+      width:100%;
+    }
+    canvas#pieChart{
+      height:30vh;
+      width:100%;
+    }
+    #atmo{
+      /* height:100%; */
+      /* width:100%; */
+    }
   }
+@media only screen and (min-width: 1280px) and (max-width:1919px){
+  .grid-container {
+     display: grid;
+     grid-gap:3vw;
+     grid-template-columns: 1fr 1fr;
+
+     grid-template-areas:
+     "lijn lijn"
+     "cirkel atmo";
+     /* border-style: solid;
+     border-radius: 3vw;
+     border-width: 0.5vw; */
+     /* width:100vw; */
+     }
+     .flex{
+       display: flex;
+       flex-flow: row;
+     }
 }
 @media only screen and (min-width: 1920px) {
   .grid-container {
    display: grid;
    grid-gap:3vw;
-   grid-template-rows: 30vw 30vw;
+   /* grid-template-rows: 30vw 30vw; */
 
    grid-template-columns: 1fr 1fr;
    grid-template-areas:
    "lijn lijn"
-   "cirkel atmo";
+   "cirkel atmo"
+   /* border-style: solid;
+   border-radius: 3vw;
+   border-width: 0.5vw; */
   }
-  body{
-    padding: 0;
-    margin:0;
+  .flex{
+    display: flex;
+    flex-flow: column;
   }
-   }
+}
