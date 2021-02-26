@@ -14,23 +14,24 @@ body{
   margin: 0;
   padding: 0;
 }
+.chart1{
+    grid-area:lijn;
+    width:100vw;
+}
+.chart2{
+    grid-area:cirkel;
+    width:100vw;
+}
 canvas#myChart{
   border-style: solid;
   border-radius: 3vw;
   border-width: 0.5vw;
-  grid-area:lijn;
-  /* position: relative; */
-  height:30vh;
-  width:100vw;
   background-color: pink;
 }
 canvas#pieChart{
-  grid-area:cirkel;
   border-style: solid;
   border-radius: 3vw;
   border-width: 0.5vw;
-  height:30vh;
-  /* width:100vw; */
   background-color: orange;
 }
 #atmo{
@@ -39,7 +40,7 @@ canvas#pieChart{
   border-radius: 3vw;
   border-width: 0.5vw;
   margin-bottom: 3vw;
-  /* width:100vw; */
+  width:100vw;
   height:100%;
 }
 #balk{
@@ -58,8 +59,7 @@ canvas#pieChart{
   height: 1vw;
 }
 input{
-  margin-top:7vw;
-  margin-left: 7vw;
+margin-top: 5vw;
 }
 .flex{
   display: flex;
@@ -80,17 +80,23 @@ input{
     border-width: 0.5vw; */
     /* width:100vw; */
     }
-    canvas#myChart{
+    /* canvas#myChart{
       height:30vh;
       width:100%;
     }
     canvas#pieChart{
       height:30vh;
       width:100%;
-    }
+    } */
     #atmo{
-      /* height:100%; */
-      /* width:100%; */
+      height:100%;
+      width:100vw;
+    }
+    .chart1{
+      width:46vw;
+    }
+    .chart2{
+      width:46vw;
     }
   }
 @media only screen and (min-width: 1280px) and (max-width:1919px){
@@ -110,6 +116,21 @@ input{
      .flex{
        display: flex;
        flex-flow: row;
+     }
+     #atmo{
+       height:100%;
+       width:48vw;
+     }
+     .chart1{
+       width:100vw;
+       height:
+     }
+     .chart2{
+       width:48vw;
+     }
+     #snelheidsbalk {
+       margin: -10vw 15vw 0vw 10vw;
+       height: 0.5vw;
      }
 }
 @media only screen and (min-width: 1920px) {
