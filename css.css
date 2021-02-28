@@ -1,48 +1,53 @@
 body{
-  /* background-color: #4A4E7B;
-  color:white; */
-  background-color: white;
-  color:black;
+  background-color: #4A4E7B;
+  color:white;
+  /* background-color: white;
+  color:black; */
 }
 
 img#spacelogo{
     width:30vw;
     margin-left: 4vw;
+    margin-top: 4vw;
 }
 img#aarde{
-  width:30vw;
-  margin-left: -2vw;
-  margin-top: 2vw;
+  width:27vw;
+  margin-left: 0vw;
+  margin-top: -2vw;
   z-index: 2;
 }
 img#mars{
-  width:20vw;
+  width:15vw;
   margin-left: 73vw;
-  margin-top: -11vw;
+  margin-top: -8vw;
   z-index: 2;
 }
 h1{
-  font-family: arial, sans-serif;
+  font-family:'Kefa', arial, sans-serif;
   font-size: 6vw;
   font-style: normal;
   text-align: center;
+  color:white;
 }
 h2{
   font-family: arial, sans-serif;
-  font-size:4vw;
+  font-size:3.5vw;
   font-style: normal;
   text-align: center;
+  color:black
 }
 p#first{
     margin-left: 17vw;
 }
 p{
   font-family: arial, sans-serif;
-  font-size: 3vw;
+  font-size: 2.8vw;
   font-style: normal;
   text-align: center;
   float:left;
   margin-left: 3vw;
+  margin-top: 0vw;
+  color:black;
 }
 /* #myChart{
   height: -497px;
@@ -58,37 +63,81 @@ p{
 } */
 
 @media only screen and (min-width: 834px) and (max-width:1279px){
-
+  h1{
+    font-size: 4.2vw;
+    margin-top:1vw;
+    margin-left: 0vw;
+    margin-bottom: 2vw;
+  }
+  h2{
+    font-size:3vw;
+    margin-top: 2vw;
+  }
+  p#first{
+      margin-left: 17vw;
+  }
+  p{
+    font-family: arial, sans-serif;
+    font-size: 2.4vw;
+    font-style: normal;
+    text-align: center;
+    float:left;
+    margin-left: 5vw;
+    margin-top: -0.5vw;
+    color:black;
+  }
+  /* img#spacelogo{
+      width:23vw;
+      height: 4vw;
+      margin-left: 2vw;
+      margin-top: 2vw;
+      margin-bottom: 2vw;
+  }
+  img#aarde{
+    width:15vw;
+    margin-left:-1vw;
+    margin-top: -1vw;
+  }
+  img#mars{
+    width:8vw;
+    margin-left:39vw;
+    margin-top: -4vw;
+  } */
 }
 @media only screen and (min-width: 1280px) and (max-width:1919px){
   h1{
-    font-size: 3vw;
-    margin-top: 3vw;
-    margin-left: 15vw;
+    font-size: 3.6vw;
+    margin-top:3vw;
+    margin-left: 11vw;
+    margin-bottom: 2vw;
   }
   h2{
-    font-size:2.5vw;
+    font-size:2vw;
+    margin-top: 1vw;
   }
   p#first{
-      margin-left: 4vw;
+      margin-left: 7vw;
   }
   p{
-    font-size: 1.5vw;
-    margin-left: 3vw;
+    font-size: 1.3vw;
+    margin-left: 4vw;
+    margin-top: 0vw;
   }
   img#spacelogo{
-      width:20vw;
+      width:23vw;
+      height: 4vw;
       margin-left: 2vw;
-      margin-top: -1vw;
+      margin-top: 2vw;
+      margin-bottom: 2vw;
   }
   img#aarde{
-    width:17vw;
+    width:15vw;
     margin-left:-1vw;
-    margin-top: 2vw;
+    margin-top: -1vw;
   }
   img#mars{
-    width:9vw;
-    margin-left:35vw;
+    width:8vw;
+    margin-left:39vw;
     margin-top: -4vw;
   }
 }
