@@ -14,24 +14,28 @@
       <img src="images/SpaceX-Logo.png" alt="SpaceX logo" id="spacelogo">
       <h1>Voertuig omgeving</h1>
     </div>
-      <!-- <div class="grid-container" style="position: relative; height:40vh; width:80vw"> -->
       <div class="grid-container">
-        <div class="chart1">
-          <canvas id="myChart"></canvas>
-        </div>
+        <!-- <div class="chart-container"> -->
+          <div class="chart1 chart-container flex">
+            <canvas id="myChart"></canvas>
+          </div>
+        <!-- </div> -->
 
-        <div class="chart2">
+      <!-- <div class="chart-container"> -->
+        <div class="chart2 flex">
           <!-- <p id="zk">hoi</p> -->
           <canvas id="pieChart"></canvas>
         </div>
+      <!-- </div> -->
 
-          <div id="atmo">
+
+          <div id="atmo" class="chart3">
             <div>
-            <h2>Atmosfeer</h2>
-            <p id="first">Troposfeer</p>
-            <p>Statosfeer</p>
-            <p>Mesosfeer</p>
-            <p>Ionosfeer</p>
+              <h2>Atmosfeer</h2>
+              <p id="first">Troposfeer</p>
+              <p>Statosfeer</p>
+              <p>Mesosfeer</p>
+              <p>Ionosfeer</p>
           </div>
 
             <img src="images/earth-3316984_960_720.png" alt="de aarde" id="aarde">
@@ -47,7 +51,7 @@
 
             <input type="button" name="ververs" id="ververs" value="ververs">
 
-
+            <!-- </div> -->
           </div>
       </div>
 

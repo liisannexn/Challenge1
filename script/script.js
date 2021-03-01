@@ -1,26 +1,21 @@
 var lijndiagram   = document.getElementById('myChart').getContext('2d');
 // lijndiagram.height(1000);
+Chart.defaults.global.defaultFontColor = 'black';
 var chart = new Chart(lijndiagram, {
     type: 'line',
 
     data: {
-        labels: ['0','5', '10', '15', '20', '25', '30', '35', '40', '45', '50', '55', '60'],
+        labels: ['0','5', '10', '15', '20', '25', '30', '35', '40', '45', '50'],
         defaultFontColor:'black',
         datasets: [{
-            label: 'Afstand afleg over tijd',
+            label: 'Tijd in miljoenen km',
             borderDashOffset:0.0,
             backgroundColor: 'rgba(0, 0, 0, 0.1)',
             borderCapStyle:'round',
             borderColor: '#7083DB',
             borderJoinStyle:'bevel',
             lineTension:'0',
-            data: [0, 1, 1.5, 3, 2, 2.5, 4, 5, 3, 4, 5.5
-              // x:0,y:0}, {x:1,y:1}, {x:2,y:1.5}, {x:3,y:3},
-              // {x:4,y:2},{x:5,y:2.5},{x:6,y:4},{x:7,y:5},
-              // {x:8,y:3}, {x:9,y:4}, {x:10,y:5.5}
-              // , {x:11,y:5.2},{x:12,y:7
-            ]
-            ,
+            data: [0, 1, 1.5, 3, 2, 3.5, 6.1, 5, 6, 4, 5.5],
             pointStyle:'circle',
 
         }]
@@ -29,7 +24,24 @@ var chart = new Chart(lijndiagram, {
     options: {
       maintainAspectRatio:false,
       responsiveAnimationDuration:0,
-      responsive:true
+      responsive:true,
+      title: {
+            display: true,
+            text: 'Afstand afleg over tijd',
+            fontSize:20,
+            padding:10,
+        },
+        legend:{
+          display:false,
+        },
+        layout: {
+            padding: {
+                left: 0,
+                right: 0,
+                top: 10,
+                bottom: 10,
+            },
+        }
     }
 });
 
@@ -41,19 +53,35 @@ new Chart(document.getElementById("pieChart"), {
         backgroundColor: ["#7083DB", "white"],
         borderColor: 'black',
         color:'black',
-
         boderWidth:'1px',
         data: [3.772, 9.789]
       }]
     },
     options: {
+      maintainAspectRatio:false,
+      responsiveAnimationDuration:0,
+      responsive:true,
       title: {
-        display: true,
-        text: 'Zwaartekracht',
-      },
-        maintainAspectRatio:false,
-        responsiveAnimationDuration:0,
-        responsive:true
+            display: true,
+            text: 'Zwaartekracht',
+            fontSize:20,
+            position:'top',
+            padding:5,
+        },
+        // title: {
+        //       display: true,
+        //       text: 'rondje',
+        //       fontSize:20,
+        //       position:'bottom',
+        //   },
+        layout: {
+            padding: {
+                left: 0,
+                right: 0,
+                top:25,
+                bottom: 40,
+            }
+        }
     }
 });
 
