@@ -5,7 +5,7 @@ var chart = new Chart(lijndiagram, {
     type: 'line',
 
     data: {
-        labels: ['0','5', '10', '15', '20', '25', '30', '35', '40', '45', '50'],
+        labels: ['0','5', '10', '15', '20', '25', '30', '35', '40', '45', '50', '55','60'],
         defaultFontColor:'black',
         datasets: [{
             label: 'Tijd in miljoenen km',
@@ -15,7 +15,7 @@ var chart = new Chart(lijndiagram, {
             borderColor: '#7464D0',
             borderJoinStyle:'bevel',
             lineTension:'0',
-            data: [0, 1, 1.5, 3, 2, 3.5, 6.1, 5, 6, 4, 5.5],
+            data: [0, 1, 1.5, 3, 2, 3.5, 6.1, 5, 6, 4, 3.5],
             pointStyle:'circle',
 
         }]
@@ -75,7 +75,7 @@ new Chart(document.getElementById("pieChart"), {
                 left: 0,
                 right: 0,
                 top:25,
-                bottom: 25,
+                bottom: 35,
             }
         }
     }
