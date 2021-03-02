@@ -12,7 +12,7 @@ var chart = new Chart(lijndiagram, {
             borderDashOffset:0.0,
             backgroundColor: 'rgba(0, 0, 0, 0.1)',
             borderCapStyle:'round',
-            borderColor: '#7083DB',
+            borderColor: '#7464D0',
             borderJoinStyle:'bevel',
             lineTension:'0',
             data: [0, 1, 1.5, 3, 2, 3.5, 6.1, 5, 6, 4, 5.5],
@@ -48,15 +48,17 @@ var chart = new Chart(lijndiagram, {
 new Chart(document.getElementById("pieChart"), {
     type: 'pie',
     data: {
-      datasets: [{
-        label: "Zwaartekracht",
-        backgroundColor: ["#7083DB", "white"],
-        borderColor: 'black',
-        color:'black',
-        boderWidth:'1px',
-        data: [3.772, 9.789]
-      }]
-    },
+        labels: [
+          '3,772 m/s^2',
+        ],
+        datasets: [{
+          label: 'Zwaartekracht',
+          data: [3.772, 9.789],
+          backgroundColor: ["#7464D0", "white"],
+          color:'black',
+          boderWidth:'1px',
+          borderColor: 'black',
+        }]},
     options: {
       maintainAspectRatio:false,
       responsiveAnimationDuration:0,
@@ -68,18 +70,12 @@ new Chart(document.getElementById("pieChart"), {
             position:'top',
             padding:5,
         },
-        // title: {
-        //       display: true,
-        //       text: 'rondje',
-        //       fontSize:20,
-        //       position:'bottom',
-        //   },
         layout: {
             padding: {
                 left: 0,
                 right: 0,
                 top:25,
-                bottom: 40,
+                bottom: 25,
             }
         }
     }

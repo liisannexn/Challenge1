@@ -119,15 +119,15 @@ p{
     margin-bottom: 2vw;
   }
   h2{
-    font-size:2vw;
-    margin-top: 1vw;
+    font-size:1.5vw;
+    margin-top: 2vw;
   }
   p#first{
-      margin-left: 7vw;
+      margin-left: 8vw;
   }
   p{
     font-size: 1.3vw;
-    margin-left: 4vw;
+    margin-left: 3vw;
     margin-top: 0vw;
   }
   img#spacelogo{
@@ -138,12 +138,12 @@ p{
       margin-bottom: 2vw;
   }
   img#aarde{
-    width:15vw;
+    width:14vw;
     margin-left:-1vw;
     margin-top: -1vw;
   }
   img#mars{
-    width:8vw;
+    width:7vw;
     margin-left:36vw;
     margin-top: -4vw;
   }
@@ -164,6 +164,21 @@ p{
     font-size: 1.5vw;
     margin-left: 3vw;
   }
-  /* hier moeten img logo en aarde en mars komen. */
+	img#spacelogo{
+      width:23vw;
+      height: 4vw;
+      margin-left: 2vw;
+      margin-top: 2vw;
+      margin-bottom: 2vw;
+  }
+  img#aarde{
+    width:15vw;
+    margin-left:-1vw;
+    margin-top: -1vw;
+  }
+  img#mars{
+    width:8vw;
+    margin-left:36vw;
+    margin-top: -4vw;
   }
 }
