@@ -81,6 +81,11 @@ padding: 0.5vw;
   display: flex;
   flex-flow: column;
 }
+/* hr{
+  position: absolute;
+  width: 1vw;
+  height: 9vw;
+} */
 @media only screen and (min-width: 834px) and (max-width:1279px){
  .grid-container {
     display: grid;
@@ -151,7 +156,7 @@ padding: 0.5vw;
          max-width:96vw;
          min-height: 30vh;
          max-height: 100%;
-         margin-right:2vw;
+         margin-right:0vw;
          margin-left: 2vw;
          margin-bottom: 2vw;
        }
@@ -184,7 +189,7 @@ padding: 0.5vw;
 @media only screen and (min-width: 1920px) {
   .grid-container {
      display: grid;
-     grid-gap:3vw;
+     grid-gap:2vw;
      grid-template-columns: 1fr 1fr;
 
      grid-template-areas:
@@ -197,26 +202,27 @@ padding: 0.5vw;
      }
      .chart1{
          max-width:96vw;
-         min-height: 46vh;
+         min-height: 42vh;
          max-height: 100%;
-         margin-left: 2vw;
-         margin-right: 2vw;
+         margin-left: 4vw;
+         margin-right: 4vw;
+         margin-top: 2vw;
      }
      .chart2{
          max-width:96vw;
-         min-height: 36vh;
+         min-height: 20vh;
          max-height: 100%;
-         margin-right:2vw;
-         margin-left: 2vw;
+         margin-right:0vw;
+         margin-left: 4vw;
          margin-bottom: 3vw;
        }
      #atmo{
        max-height: 100%;
-       min-height:35vh;
+       min-height:20vh;
        width:46.5vw;
        border-radius: 1.4vw;
        margin-left: 0vw;
-       margin-right: 2vw;
+       margin-right: 4vw;
        margin-bottom: 3vw;
      }
      #snelheidsbalk {

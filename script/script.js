@@ -68,13 +68,13 @@ new Chart(document.getElementById("pieChart"), {
             text: 'Zwaartekracht',
             fontSize:20,
             position:'top',
-            padding:5,
+            padding:25,
         },
         layout: {
             padding: {
                 left: 0,
                 right: 0,
-                top:25,
+                top:10,
                 bottom: 35,
             }
         }
