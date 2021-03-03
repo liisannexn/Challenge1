@@ -194,7 +194,6 @@ hr{
      }
      .chart2{
          max-width:96vw;
-         min-height: 30vh;
          max-height: 90%;
          margin-right:0vw;
          margin-left: 2vw;
@@ -274,7 +273,7 @@ hr{
          margin-bottom: 3vw;
        }
      #atmo{
-       max-height: 100%;  
+       max-height: 100%;
        width:46.5vw;
        border-radius: 1.4vw;
        margin-left: 0vw;
