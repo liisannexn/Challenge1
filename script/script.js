@@ -8,7 +8,7 @@ var chart = new Chart(lijndiagram, {
         labels: ['0','5', '10', '15', '20', '25', '30', '35', '40', '45', '50', '55','60'],
         defaultFontColor:'black',
         datasets: [{
-            label: 'Afgelegde tijd in uren',
+            label: 'Afgelegde tijd (h) over de afstand in miljoenen kilometers',
             borderDashOffset:0.0,
             backgroundColor: 'rgba(0, 0, 0.9, 0.3)',
             borderCapStyle:'round',
