@@ -8,7 +8,7 @@ var chart = new Chart(lijndiagram, {
         labels: ['0','5', '10', '15', '20', '25', '30', '35', '40', '45', '50', '55','60'],
         defaultFontColor:'black',
         datasets: [{
-            label: 'Tijd in miljoenen km',
+            label: 'Afgelegde afstand',
             borderDashOffset:0.0,
             backgroundColor: 'rgba(0, 0, 0.9, 0.3)',
             borderCapStyle:'round',
@@ -27,7 +27,7 @@ var chart = new Chart(lijndiagram, {
       responsive:true,
       title: {
             display: true,
-            text: 'Afstand afleg over tijd',
+            text: 'Afstand afleg over tijd (km/h)',
             fontSize:20,
             padding:10,
             fontFamily:"'Kefa', 'Arial', sans-serif"
