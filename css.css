@@ -146,10 +146,12 @@ p{
 		width:16vw;
 		margin-left:-1vw;
 		margin-top: -2vw;
+		margin-bottom: 0;
 	}
 	img#mars{
 		width:9vw;
 		margin-left:36vw;
 		margin-top: -5vw;
+		margin-bottom: 0;	
 	}
 }
