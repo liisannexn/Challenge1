@@ -30,6 +30,7 @@ var chart = new Chart(lijndiagram, {
             text: 'Afstand afleg over tijd',
             fontSize:20,
             padding:10,
+            fontFamily:"'Kefa', 'Arial', sans-serif"
         },
         legend:{
           display:false,
@@ -62,6 +63,7 @@ new Chart(document.getElementById("pieChart"), {
             fontSize:20,
             position:'top',
             padding:15,
+            fontFamily:"'Kefa', 'Arial', sans-serif"
         },
         layout: {
             padding: {

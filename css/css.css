@@ -38,7 +38,7 @@ h1{
 	text-shadow: 1px 1px 7px #332E33;
 }
 h2{
-  font-family: arial, sans-serif;
+  font-family: 'Kefa', arial, sans-serif;
   font-size:20;
   font-style: normal;
   text-align: center;
@@ -152,6 +152,6 @@ p{
 		width:9vw;
 		margin-left:36vw;
 		margin-top: -5vw;
-		margin-bottom: 0;	
+		margin-bottom: 0;
 	}
 }
