@@ -35,6 +35,7 @@ h1{
   font-style: normal;
   text-align: center;
   color:white;
+	text-shadow: 1px 1px 7px #332E33;
 }
 h2{
   font-family: arial, sans-serif;
@@ -56,25 +57,12 @@ p{
   margin-top: 0vw;
   color:black;
 }
-/* #myChart{
-  height: -497px;
-  width: -995px;
-} */
-/* hr{
-  float:left;
-  margin-left: 2vw;
-  border-style: dotted;
-  border-width:2;
-  color:black;
-  height:30vw;
-} */
-
 @media only screen and (min-width: 834px) and (max-width:1279px){
   h1{
     font-size: 4.2vw;
     margin-top:1vw;
     margin-left: 0vw;
-    margin-bottom: 2vw;
+    margin-bottom: 3vw;
   }
   h2{
     font-size:20;
@@ -140,7 +128,7 @@ p{
   img#aarde{
     width:14vw;
     margin-left:-1vw;
-    margin-top: -1vw;
+    margin-top: -1.5vw;
   }
   img#mars{
     width:7vw;
@@ -160,11 +148,11 @@ p{
 		margin-top: 2vw;
 	}
 	p#first{
-			margin-left: 8vw;
+			margin-left: 10vw;
 	}
 	p{
 		font-size: 1.3vw;
-		margin-left: 3vw;
+		margin-left: 2vw;
 		margin-top: 0vw;
 	}
 	img#spacelogo{
@@ -177,7 +165,7 @@ p{
 	img#aarde{
 		width:16vw;
 		margin-left:-1vw;
-		margin-top: -1vw;
+		margin-top: -2vw;
 	}
 	img#mars{
 		width:9vw;

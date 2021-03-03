@@ -10,7 +10,7 @@ var chart = new Chart(lijndiagram, {
         datasets: [{
             label: 'Tijd in miljoenen km',
             borderDashOffset:0.0,
-            backgroundColor: 'rgba(0, 0, 0, 0.1)',
+            backgroundColor: 'rgba(0, 0, 0.9, 0.085)',
             borderCapStyle:'round',
             borderColor: '#7464D0',
             borderJoinStyle:'bevel',
@@ -54,11 +54,12 @@ new Chart(document.getElementById("pieChart"), {
         datasets: [{
           label: 'Zwaartekracht',
           data: [3.772, 9.789],
-          backgroundColor: ["#7464D0", "white"],
+          backgroundColor: ["#7464D0", "#E2E4FD"],
           color:'black',
           boderWidth:'1px',
           borderColor: 'black',
-        }]},
+        }]
+      },
     options: {
       maintainAspectRatio:false,
       responsiveAnimationDuration:0,
@@ -68,14 +69,14 @@ new Chart(document.getElementById("pieChart"), {
             text: 'Zwaartekracht',
             fontSize:20,
             position:'top',
-            padding:25,
+            padding:15,
         },
         layout: {
             padding: {
                 left: 0,
                 right: 0,
-                top:10,
-                bottom: 35,
+                top:0,
+                bottom: 10,
             }
         }
     }
@@ -85,8 +86,8 @@ var s = 50;
 
 document.getElementById('balk').style.width = s+'%';
 
-document.getElementById('ververs').onclick = function(){
-  s += 8;
+document.getElementById('gas').onclick = function(){
+  s += 4;
   if (s > 100){
     s = 100;
   }
