@@ -43,27 +43,27 @@ body{
     max-height: 100%;
     margin-right: 4vw;
     margin-left: 4vw;
-    background-color: #D8DBFD;
-    border-color: #D8DBFD;
+    background-color: #C674FF;
+    border-color: #C674FF;
     box-shadow:2px 2px 6px #332E33;
     border-radius: 3vw;
   }
 canvas#myChart{
   border-style: solid;
-  background-color:#D8DBFD;
+  background-color: #C674FF;
   border-radius: 3vw;
   border-width: 0.5vw;
-  border-color: #D8DBFD;
+  border-color: #C674FF;
 }
 canvas#pieChart{
   border-style: solid;
-  background-color: #D8DBFD;
-  border-color: #D8DBFD;
+  background-color: #C674FF;
+  border-color: #C674FF;
   border-radius: 3vw;
   border-width: 0.5vw;
 }
 #balk{
-  background-color:#7464D0;
+   background-color: #2C2D50;
   height:20px;
   color:white;
   z-index: 4;
@@ -71,7 +71,6 @@ canvas#pieChart{
   border-radius: 0;
 }
 #snelheidsbalk {
-  background-color:#D8DBFD;
   margin: -15vw 15vw 0vw 10vw;
   overflow: hidden;
   color:white;
@@ -80,37 +79,39 @@ canvas#pieChart{
   width:70%;
 }
 input{
-margin-top: 2vw;
-margin-left: 75vw;
-margin-bottom: 2vw;
-font-size: 2.5vw;
-border-radius: 1vw;
-padding: 0.5vw;
-background-color:#C0B8E6;
-box-shadow:1px 1px 4px grey;
-}
+  margin-top: 2vw;
+  margin-left: 75vw;
+  margin-bottom: 2vw;
+  font-size: 2.5vw;
+  border-radius: 1vw;
+  padding: 0.5vw;
+  background-color:#8A4FB3;
+  box-shadow:1px 1px 4px grey;
+  color:white;
+  border-color: white;
+  border-style: solid;
+  }
 .flex{
   display: flex;
   flex-flow: column;
 }
 hr{
   position: absolute;
-  min-height:30vw;
+  min-height:25vw;
   max-height: 10%;
-  z-index: 0;
-  border-left: 2px dashed #545B7B;
+  border: 2px dashed #8A4FB3;
 }
 .lijn1{
     margin-left: 32vw;
-    margin-top: 0.5vw;
+    margin-top: 4.5vw;
 }
 .lijn2{
   margin-left: 47.5vw;
-  margin-top: 0.5vw;
+  margin-top: 4.5vw;
 }
 .lijn3{
   margin-left: 63.5vw;
-  margin-top: 0.5vw;
+  margin-top: 4.5vw;
 }
 @media only screen and (min-width: 834px) and (max-width:1279px){
  .grid-container {
@@ -152,13 +153,13 @@ hr{
     }
     input{
     margin-top: 2vw;
-    margin-left: 75vw;
+    margin-left: 77vw;
     width: 10vw;
     font-size: 2vw;
     }
     hr{
-      min-height:28vw;
-      border-left: 4px dashed #545B7B;
+      min-height:23vw;
+      border: 3px dashed #8A4FB3;
     }
     .lijn1{
         margin-left: 31vw;
@@ -225,20 +226,23 @@ hr{
        font-size: 1vw;
      }
      input:hover{
-       background-color: #B295E8;
+       background-color: #2C2D50;
      }
      hr{
-      min-height:15vw;
-      border-left: 3px dashed #545B7B;
+      min-height:12vw;
+      border: 3px dashed #8A4FB3;
      }
      .lijn1{
          margin-left: 15.5vw;
+         margin-top: 3vw;
      }
      .lijn2{
-       margin-left: 24.5vw;
+       margin-left: 25vw;
+       margin-top: 3vw;
      }
      .lijn3{
-       margin-left: 33.5vw;
+       margin-left: 34.5vw;
+       margin-top: 3vw;
      }
 }
 @media only screen and (min-width: 1920px) {
@@ -294,20 +298,22 @@ hr{
        font-size: 1.2vw;
      }
      input:hover{
-       background-color: #B295E8;
+       background-color: #2C2D50;
      }
      hr{
-       min-height:16vw;
-      border-left: 4px dashed #545B7B;
+       min-height:15vw;
+       border: 3px dashed #8A4FB3;
      }
      .lijn1{
          margin-left: 17.2vw;
-         z-index: 1;
+         margin-top: 3vw;
      }
      .lijn2{
        margin-left: 25vw;
+       margin-top: 3vw;
      }
      .lijn3{
        margin-left: 33vw;
+       margin-top: 3vw;
      }
 }

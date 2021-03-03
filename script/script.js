@@ -1,6 +1,6 @@
 var lijndiagram   = document.getElementById('myChart').getContext('2d');
 // lijndiagram.height(1000);
-Chart.defaults.global.defaultFontColor = 'black';
+Chart.defaults.global.defaultFontColor = 'rgba(255, 255, 255, 10.0)';
 var chart = new Chart(lijndiagram, {
     type: 'line',
 
@@ -10,9 +10,9 @@ var chart = new Chart(lijndiagram, {
         datasets: [{
             label: 'Tijd in miljoenen km',
             borderDashOffset:0.0,
-            backgroundColor: 'rgba(0, 0, 0.9, 0.085)',
+            backgroundColor: 'rgba(0, 0, 0.9, 0.3)',
             borderCapStyle:'round',
-            borderColor: '#7464D0',
+            borderColor: '#2C2D50',
             borderJoinStyle:'bevel',
             lineTension:'0',
             data: [0, 1, 1.5, 3, 2, 3.5, 6.1, 5, 6, 4, 3.5],
@@ -54,7 +54,7 @@ new Chart(document.getElementById("pieChart"), {
         datasets: [{
           label: 'Zwaartekracht',
           data: [3.772, 9.789],
-          backgroundColor: ["#7464D0", "#E2E4FD"],
+          backgroundColor: ["#2C2D50", 'rgba(0, 0, 0.9, 0.3)'],
           color:'black',
           boderWidth:'1px',
           borderColor: 'black',
