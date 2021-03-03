@@ -34,14 +34,6 @@ var chart = new Chart(lijndiagram, {
         legend:{
           display:false,
         },
-        layout: {
-            padding: {
-                left: 0,
-                right: 0,
-                top: 10,
-                bottom: 10,
-            },
-        }
     }
 });
 
